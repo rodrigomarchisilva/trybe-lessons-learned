@@ -1,6 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'cursive', sans-serif;
+  color: #011A51;
+  line-height: 1.5;
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
