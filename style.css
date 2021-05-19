@@ -1,11 +1,139 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'cursive', sans-serif;
+  font-family: 'Reggae One', 'cursive';
   color: #011A51;
   line-height: 1.5;
+  font-size: 20px;
+  text-align: center;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: #7EA3F1;
+  border-bottom: 5px solid #487BEA;
+  border-top: 5px solid #487BEA;
+  font-size: xx-large;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #011A51;
+  color: #C8D7F9;
+}
+
+main h2 {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #011A51;
+  color: #7EA3F1;
+}
+
+aside h2 {
+  margin-top: 2009px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #7EA3F1;
+  color: #1957DB;
+}
+
+figure {
+  background-color: #011A51;
+  width: 670px;
+  display: inline-block;
+  border-radius: 50px;
+  height: 700px;
+  border: 5px solid #487BEA;
+  margin-top: 100px;
+}
+
+#minha_foto {
+  border-radius: 50%;
+  width: 500px;
+  margin-top: 25px;
+  border: 50px ridge #487BEA;
+}
+
+#nav {
+  background-color: #C8D7F9;
+}
+
+ul, ol, p {
+  display: inline-block;
+  text-align: left;
+  width: 500px;
+}
+
+aside, article{
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+main{
+  width: 60%;
+  display: inline-block;
+  border: 5px solid #487BEA;
+  margin-top: 195px;
+  background-color: #C8D7F9;
+}
+
+aside {
+  width: 40%;
+  display: inline-block;
+  margin-top: 195px;
+  border: 5px solid #7EA3F1;
+  color: #C8D7F9;
+  background-color: #011A51;
+}
+
+#main_structure {
+  display: flex;
+}
+
+main p {
+  width: 615px
+}
+
+aside p {
+  width: 515px;
+}
+
+p {
+  text-align: justify;
+}
+
+footer a {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #011A51;
+  color: #C8D7F9;
+  border: 5px solid #487BEA;
+}
+
+footer {
+  margin-bottom: 50px;
+}
+
+footer h2 {
+  margin-bottom: 60px;
+}
+
+table {
+  display: inline-block;
+  border: 1px solid #011A51;
+}
+
+tbody td {
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid #011A51;
+  padding: 5px;
+}
+
+th {
+  background-color: #7EA3F1;
 }
