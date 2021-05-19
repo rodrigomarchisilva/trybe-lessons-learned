@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Reggae One", "cursive";
-  color: #011a51;
+  font-family: Reggae One, cursive, serif;
+  color: rgb(1, 26, 81);
   line-height: 1.5;
   font-size: 20px;
   text-align: center;
@@ -14,35 +14,35 @@ body {
   text-align: center;
   display: block;
   width: 100%;
-  background-color: #7ea3f1;
-  border-bottom: 5px solid #487bea;
-  border-top: 5px solid #487bea;
+  background-color: rgb(126, 163, 241);
+  border-bottom: 5px solid rgb(72, 123, 234);
+  border-top: 5px solid rgb(72, 123, 234);
   font-size: xx-large;
   -webkit-text-stroke-width: 5px;
-  -webkit-text-stroke-color: #011a51;
-  color: #c8d7f9;
+  -webkit-text-stroke-color: rgb(1, 26, 81);
+  color: rgb(200, 215, 249);
 }
 
 main h2 {
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #011a51;
-  color: #7ea3f1;
+  -webkit-text-stroke-color: rgb(1, 26, 81);
+  color: rgb(126, 163, 241);
 }
 
 aside h2 {
   margin-top: 2009px;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #7ea3f1;
-  color: #1957DB;
+  -webkit-text-stroke-color: rgb(126, 163, 241);
+  color: rgb(25, 87, 219);
 }
 
 figure {
-  background-color: #011a51;
+  background-color: rgb(1, 26, 81);
   width: 670px;
   display: inline-block;
   border-radius: 50px;
   height: 700px;
-  border: 5px solid #487bea;
+  border: 5px solid rgb(72, 123, 234);
   margin-top: 100px;
 }
 
@@ -50,11 +50,11 @@ figure {
   border-radius: 50%;
   width: 500px;
   margin-top: 25px;
-  border: 50px ridge #487bea;
+  border: 50px ridge rgb(72, 123, 234);
 }
 
 #nav {
-  background-color: #c8d7f9;
+  background-color: rgb(200, 215, 249);
 }
 
 ul , ol , p {
@@ -74,18 +74,18 @@ a {
 main {
   width: 60%;
   display: inline-block;
-  border: 5px solid #487bea;
+  border: 5px solid rgb(72, 123, 234);
   margin-top: 195px;
-  background-color: #c8d7f9;
+  background-color: rgb(200, 215, 249);
 }
 
 #aside {
   width: 40%;
   display: inline-block;
   margin-top: 195px;
-  border: 5px solid #7ea3f1;
-  color: #c8d7f9;
-  background-color: #011a51;
+  border: 5px solid rgb(126, 163, 241);
+  color: rgb(200, 215, 249);
+  background-color: rgb(1, 26, 81);
 }
 
 #main_structure {
@@ -107,9 +107,9 @@ main p {
 footer a {
   padding: 20px;
   border-radius: 10px;
-  background-color: #011a51;
-  color: #c8d7f9;
-  border: 5px solid #487bea;
+  background-color: rgb(1, 26, 81);
+  color: rgb(200, 215, 249);
+  border: 5px solid rgb(72, 123, 234);
 }
 
 footer {
@@ -122,11 +122,11 @@ footer h2 {
 
 table {
   display: inline-block;
-  border: 1px solid #011a51;
+  border: 1px solid rgb(1, 26, 81);
 }
 
 th , td {
-  border: 1px solid #011a51;
+  border: 1px solid rgb(1, 26, 81);
   padding: 5px;
 }
 
@@ -135,5 +135,6 @@ tbody td {
 }
 
 th {
-  background-color: #7ea3f1;
+  background-color: rgb(126, 163, 241);
 }
+\n
