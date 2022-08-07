@@ -1,139 +1,127 @@
+/* stylelint-disable declaration-bang-space-after */
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Reggae One, cursive, serif;
-  color: rgb(1, 26, 81);
-  line-height: 1.5;
-  font-size: 20px;
+  font-family: Reggae One, cursive, serif !important;
+  color: rgb(1, 26, 81) !important;
+}
+
+h2 , h1 {
   text-align: center;
 }
 
 #cabecalho {
-  position: fixed;
-  top: 0;
-  left: 0;
-  text-align: center;
-  display: block;
-  width: 100%;
-  background-color: rgb(126, 163, 241);
+  background: rgb(126, 163, 241);
   border-bottom: 5px solid rgb(72, 123, 234);
   border-top: 5px solid rgb(72, 123, 234);
-  font-size: xx-large;
-  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-width: 0.1rem;
   -webkit-text-stroke-color: rgb(1, 26, 81);
   color: rgb(200, 215, 249);
 }
 
+#main_structure {
+  margin-top: 5.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+main {
+  border: 5px solid rgb(72, 123, 234);
+  background-color: rgb(200, 215, 249);
+  padding: 1rem !important;
+}
+
 main h2 {
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 0.1rem;
   -webkit-text-stroke-color: rgb(1, 26, 81);
   color: rgb(126, 163, 241);
 }
 
+aside {
+  border: 5px solid rgb(126, 163, 241);
+  color: rgb(200, 215, 249);
+  background-color: rgb(1, 26, 81);
+  padding: 1rem !important;
+}
+
 aside h2 {
-  margin-top: 2009px;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 0.1rem;
   -webkit-text-stroke-color: rgb(126, 163, 241);
   color: rgb(25, 87, 219);
 }
 
 figure {
   background-color: rgb(1, 26, 81);
-  width: 670px;
-  display: inline-block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.7rem 0;
+  margin: 0;
   border-radius: 50px;
-  height: 700px;
   border: 5px solid rgb(72, 123, 234);
-  margin-top: 100px;
 }
 
 #minha_foto {
+  margin: 0;
   border-radius: 50%;
-  width: 500px;
-  margin-top: 25px;
+  width: 90%;
   border: 50px ridge rgb(72, 123, 234);
 }
 
-#nav {
-  background-color: rgb(200, 215, 249);
+.nav-link {
+  background-color: rgb(126, 163, 241) !important;
+  border: 5px solid rgb(72, 123, 234) !important;
+  padding: 0 0.5rem !important;
+  color: rgb(1, 26, 81) !important;
 }
 
-ul , ol , p {
-  display: inline-block;
-  text-align: left;
-  width: 500px;
+main h2 , main section , main nav , hr , main article {
+  margin-bottom: 1.7rem !important;
 }
 
-#aside , article {
-  display: inline-block;
-}
-
-a {
-  text-decoration: none;
-}
-
-main {
-  width: 60%;
-  display: inline-block;
-  border: 5px solid rgb(72, 123, 234);
-  margin-top: 195px;
-  background-color: rgb(200, 215, 249);
-}
-
-#aside {
-  width: 40%;
-  display: inline-block;
-  margin-top: 195px;
-  border: 5px solid rgb(126, 163, 241);
-  color: rgb(200, 215, 249);
-  background-color: rgb(1, 26, 81);
-}
-
-#main_structure {
-  display: flex;
+hr {
+  border-top: 0.2rem solid rgb(126, 163, 241) !important;
+  opacity: 1 !important;
 }
 
 p {
   text-align: justify;
 }
 
-main p {
-  width: 615px;
+table {
+  border: 0.2rem solid rgb(126, 163, 241) !important;
 }
 
-#aside p {
-  width: 515px;
+#footer-container {
+  background-color: rgb(126, 163, 241);
+  border-top: 5px solid rgb(72, 123, 234);
+  border-bottom: 5px solid rgb(72, 123, 234);
+  -webkit-text-stroke-width: 0.1rem;
+  -webkit-text-stroke-color: rgb(1, 26, 81);
+  color: rgb(200, 215, 249);
 }
 
-footer a {
-  padding: 20px;
-  border-radius: 10px;
+#footer-btn {
   background-color: rgb(1, 26, 81);
+  border-radius: 10px;
   color: rgb(200, 215, 249);
   border: 5px solid rgb(72, 123, 234);
-}
-
-footer {
-  margin-bottom: 50px;
+  -webkit-text-stroke-width: 0;
 }
 
 footer h2 {
-  margin-bottom: 60px;
+  margin: 1.7rem 0;
 }
 
-table {
-  display: inline-block;
-  border: 1px solid rgb(1, 26, 81);
+footer a {
+  margin-bottom: 1.5rem;
+  padding: 1rem !important;
 }
 
-th , td {
-  border: 1px solid rgb(1, 26, 81);
-  padding: 5px;
-}
-
-tbody td {
-  text-align: left;
-}
-
-th {
-  background-color: rgb(126, 163, 241);
+h2:before {
+  display: block;
+  content: ' ';
+  margin-top: -7rem;
+  height: 7rem;
+  visibility: hidden;
+  pointer-events: none;
 }
