@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD004 MD007 MD048 -->
 # Lessons Learned (lições aprendidas)
 
 ## Content (conteúdo)
